@@ -7,7 +7,7 @@ const Home = () => {
   const [error, setError] = useState();
   const [localizedName, setLocalizedName] = useState();
 
-  const baseurl = "http://dataservice.accuweather.com";
+  const baseurl = "https://dataservice.accuweather.com";
   const apikey = "pn0qr2UvaWIhfTQbAhDGCiUawh1XZAkD";
 
   const handleInput = (e) => {
