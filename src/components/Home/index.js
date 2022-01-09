@@ -107,14 +107,14 @@ const Home = () => {
                 {info.DailyForecasts[0].Day.IconPhrase}
               </p>
             </div>
-            <h5>Day:</h5>
+            <h5>Night:</h5>
             <div className="image__container">
               <img
                 className="temp__image"
                 src={
                   "https://developer.accuweather.com/sites/default/files/" +
-                  (info.DailyForecasts[0].Day.Icon < 9 ? "0" : "") +
-                  info.DailyForecasts[0].Day.Icon +
+                  (info.DailyForecasts[0].Night.Icon < 9 ? "0" : "") +
+                  info.DailyForecasts[0].Night.Icon +
                   "-s.png"
                 }
                 alt="Night Icon"
