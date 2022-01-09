@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleInput = (e) => {
     setCity(e.target.value);
-    console.log(city);
+   
   };
 
   const handleSubmit = async (e) => {
@@ -27,7 +27,7 @@ const Home = () => {
 
         const cityKey = data[0].Key;
         setLocalizedName(data[0].EnglishName);
-        console.log(cityKey);
+      
 
         const response2 = await fetch(
           `${baseurl}/forecasts/v1/daily/1day/${cityKey}?apikey=${apikey}`
@@ -132,4 +132,4 @@ const Home = () => {
 };
 
 export default Home;
-//https://developer.accuweather.com/sites/default/files/01-s.png
+
