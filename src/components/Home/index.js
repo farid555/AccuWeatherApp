@@ -8,7 +8,7 @@ const Home = () => {
   const [localizedName, setLocalizedName] = useState();
 
   const baseurl = "http://dataservice.accuweather.com";
-  const apikey = "zSbMN0r7cAA3Yfm8azTfB9jGs4aPpuMN";
+  const apikey = "pn0qr2UvaWIhfTQbAhDGCiUawh1XZAkD";
 
   const handleInput = (e) => {
     setCity(e.target.value);
